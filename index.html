@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather forcast</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <video autoplay muted loop id="bgVideo">
+       <source src="banner.mp4" type="video/mp4">
+   </video>
+
+   <div class="app">
+    <h1>Weather App</h1>
+    <input type="text" id="cityInput" placeholder="Enter city Name">
+    <button id="searchBtn">Search</button>
+    <div id="result" class="hide" >
+        <h2 id="cityName"></h2>
+        <p id="temperature"></p>
+        <p id="description"></p>
+        <img id="icon" alt="weather icon"/>
+    </div>
+   </div>
+   <script src="weather.js"></script> 
+</body>
+</html>
