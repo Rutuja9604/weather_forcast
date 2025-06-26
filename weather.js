@@ -46,6 +46,7 @@ if (weatherMain.includes("clear")) {
       } else if (weatherMain.includes("snow")) {
         changeBackground("snow.mp4");
       } else {
+        
         // If no video available, hide video and use image
         video.style.display = "none";
         body.style.backgroundImage = "url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80')";
